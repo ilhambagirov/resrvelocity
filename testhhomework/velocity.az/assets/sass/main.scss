@@ -1,0 +1,36 @@
+@import "mixins";
+@import "variables";
+@import "typography";
+@import "base";
+@import "animation";
+@import "common";
+@import './components/buttons';
+@import './components/rangeslider';
+@import './components/tabs';
+@import './components/tarificons';
+@import './components/pageheading';
+
+
+// fonts scss file import
+@import './font';
+
+// icons scss file import
+@import './icons';
+
+//Pages
+@import './pages/index';
+@import './pages/prohibited';
+@import './pages/faq';
+@import './pages/about';
+@import './pages/tariffs';
+@import './pages/services';
+
+//bootsrap import
+@import './bootstrap/scss/functions';
+@import './bootstrap/scss/mixins';
+@import './bootstrap/scss/variables';
+@import './bootstrap/scss/utilities';
+@import './bootstrap/scss/bootstrap-grid.scss';
+
+
+
